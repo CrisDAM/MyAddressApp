@@ -66,7 +66,7 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 
 /**
- *
+ * AddressApp
  * @author Cris
  * @version 0.9
  */
