@@ -1,5 +1,5 @@
 .background {
-     -fx-background-image: url("background.jpg");
+     -fx-background-image: url("file:resources/images/background.jpg");
      -fx-background-repeat:no-repeat;
  	 -fx-background-position:center;
 }
@@ -111,29 +111,29 @@
  }
 
  #btnNew {
- 	-fx-background-image: url("new.png");
+ 	-fx-background-image: url("file:resources/images/new.png");
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
  #btnEdit {
- 	-fx-background-image: url("edit.png");
+ 	-fx-background-image: url("file:resources/images/edit.png");
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
  #btnDelete {
- 	-fx-background-image: url("delete.png");
+ 	-fx-background-image: url("file:resources/images/delete.png");
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
 
  #btnOk {
- 	-fx-background-image: url("ok.png");
+ 	-fx-background-image: url("file:resources/images/ok.png");
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
 
   #btnCancelar {
- 	-fx-background-image: url("cancelar.png");
+ 	-fx-background-image: url("file:resources/images/cancelar.png");
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
