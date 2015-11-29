@@ -133,13 +133,13 @@ public class MainApp extends Application {
 
         Button btn = new Button("Sign in");
         HBox hbBtn = new HBox(10);
-        hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
+        hbBtn.setAlignment(Pos.BOTTOM_CENTER);
         hbBtn.getChildren().add(btn);
         grid.add(hbBtn, 1, 4);
 
         Button btn2 = new Button("Entrar!");
         HBox hbBtn2 = new HBox(10);
-        hbBtn2.setAlignment(Pos.BOTTOM_RIGHT);
+        hbBtn2.setAlignment(Pos.BOTTOM_CENTER);
         hbBtn2.getChildren().add(btn2);
         grid.add(hbBtn2, 1, 4);
         hbBtn2.setVisible(false);
@@ -239,6 +239,7 @@ public class MainApp extends Application {
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
+            primaryStage.setResizable(false);
 
             // Give the controller access to the main app.
             RootLayoutController controller = loader.getController();

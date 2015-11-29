@@ -1,5 +1,5 @@
 .background {
-     -fx-background-image: url("file:resources/images/background.jpg");
+     -fx-background-image: url("file:resources/images/fondo1.jpg");
      -fx-background-repeat:no-repeat;
  	 -fx-background-position:center;
 }
@@ -11,7 +11,7 @@
 }
 
 .label-bright {
-    -fx-font-size: 11pt;
+    -fx-font-size: 15pt;
     -fx-font-family: "Arial Narrow";
     -fx-text-fill: white;
     -fx-font-weight: bold;
@@ -101,49 +101,44 @@
  * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/
  */
 
- #imageAvatar{
- 	/*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
- 	-fx-padding: 10;
- 	-fx-border-color: black;
- 	-fx-border-insets:3;
-    -fx-background-radius: 5;
-    -fx-border-width:5.0;*/
- }
-
  #btnNew {
  	-fx-background-image: url("file:resources/images/new.png");
+ 	-fx-background-color: #04B4AE;
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
  #btnEdit {
  	-fx-background-image: url("file:resources/images/edit.png");
+ 	-fx-background-color: #04B4AE;
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
  #btnDelete {
  	-fx-background-image: url("file:resources/images/delete.png");
+ 	-fx-background-color: #04B4AE;
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
 
  #btnOk {
  	-fx-background-image: url("file:resources/images/ok.png");
+ 	-fx-background-color: #04B4AE;
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
 
-  #btnCancelar {
+ #btnCancelar {
  	-fx-background-image: url("file:resources/images/cancelar.png");
+ 	-fx-background-color: #04B4AE;
  	-fx-background-repeat:no-repeat;
  	-fx-background-position:center;
  }
 
 .button {
     -fx-padding: 5 22 5 22;
-    -fx-border-color: #e2e2e2;
+    -fx-border-color: black;
     -fx-border-width: 2;
     -fx-background-radius: 0;
-    -fx-background-image: url("background.jpg");
     -fx-font-family: "Arial Narrow", Helvetica, Arial, sans-serif;
     -fx-font-size: 11pt;
     -fx-text-fill: #d8d8d8;
@@ -151,7 +146,7 @@
 }
 
 .button:hover {
-    -fx-background-color: #3a3a3a;
+    -fx-background-color: #088A85;
 }
 
 .button:pressed, .button:default:hover:pressed {
